@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Index Page</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- <h1>Hello, world!</h1> -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="./assets/images/login/login-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <button class="left_button"><a class=" btn btn-primary" href="./seller_store.html">My Store</a></button>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./seller_product_info.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <g clip-path="url(#clip0_13_434)">
+                    <path
+                      d="M5.99835 16C4.89865 16 4.0089 16.9 4.0089 18C4.0089 19.1 4.89865 20 5.99835 20C7.09805 20 7.9978 19.1 7.9978 18C7.9978 16.9 7.09805 16 5.99835 16ZM0 1C0 1.55 0.449876 2 0.999725 2H1.99945L5.59846 9.59L4.24883 12.03C3.51903 13.37 4.47877 15 5.99835 15H16.9953C17.5452 15 17.995 14.55 17.995 14C17.995 13.45 17.5452 13 16.9953 13H5.99835L7.09805 11H14.546C15.2958 11 15.9556 10.59 16.2955 9.97L19.8745 3.48C19.9588 3.32843 20.002 3.15747 19.9999 2.98406C19.9978 2.81064 19.9505 2.64077 19.8627 2.49126C19.7748 2.34175 19.6494 2.21778 19.499 2.13162C19.3485 2.04546 19.1781 2.00009 19.0048 2H4.20884L3.53903 0.570001C3.45868 0.399307 3.33138 0.255042 3.17203 0.154095C3.01269 0.0531475 2.82789 -0.000302861 2.63927 1.29085e-06H0.999725C0.449876 1.29085e-06 0 0.450001 0 1ZM15.9956 16C14.8959 16 14.0061 16.9 14.0061 18C14.0061 19.1 14.8959 20 15.9956 20C17.0953 20 17.995 19.1 17.995 18C17.995 16.9 17.0953 16 15.9956 16Z"
+                      fill="#666666" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13_434">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                Shopping Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <g clip-path="url(#clip0_13_438)">
+                    <path
+                      d="M10.02 0C15.7 0 20 4.65699 20 9.98498C20 16.1642 14.96 20 10 20C8.36 20 6.54 19.5593 5.08 18.698C4.57 18.3876 4.14 18.1572 3.59 18.3375L1.57 18.9384C1.06 19.0986 0.6 18.698 0.75 18.1572L1.42 15.9139C1.53 15.6034 1.51 15.2729 1.35 15.0125C0.49 13.4301 0 11.6975 0 10.015C0 4.74712 4.21 0 10.02 0ZM14.59 8.74311C13.88 8.74311 13.31 9.31397 13.31 10.025C13.31 10.7261 13.88 11.307 14.59 11.307C15.3 11.307 15.87 10.7261 15.87 10.025C15.87 9.31397 15.3 8.74311 14.59 8.74311ZM9.98 8.74311C9.28 8.7331 8.7 9.31397 8.7 10.015C8.7 10.7261 9.27 11.2969 9.98 11.307C10.69 11.307 11.26 10.7261 11.26 10.025C11.26 9.31397 10.69 8.74311 9.98 8.74311ZM5.37 8.74311C4.66 8.74311 4.09 9.31397 4.09 10.025C4.09 10.7261 4.67 11.307 5.37 11.307C6.08 11.2969 6.65 10.7261 6.65 10.025C6.65 9.31397 6.08 8.74311 5.37 8.74311Z"
+                      fill="#666666" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13_438">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                Messages</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class=" btn btn-primary" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Sign In/ Register
+                </a>
+
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li class="text-center"><button class="mb-4"><a class="dropdown-item text-white"
+                        href="./login.html">Log In</a></button></li>
+                  <li><a class="dropdown-item" href="./register.html">Register as a Buyer</a></li>
+                  <li><a class="dropdown-item" href="./register1.html">Register as a Seller</a></li>
+                </ul>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+  <main>
+
+    <div class="nav-search">
+      <div class="container">
+
+        <div class="nav_right_text">
+          <ul class="d-flex align-items-center justify-content-end mt-4">
+            <li>Help
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M14.9999 7.76312C15.0026 7.61546 14.9594 7.4706 14.8762 7.34859C14.793 7.22657 14.6739 7.13344 14.5354 7.08207C14.397 7.0307 14.246 7.02363 14.1033 7.06185C13.9607 7.10007 13.8334 7.18169 13.7392 7.2954L10.0136 11.6473L6.28795 7.29271C6.22995 7.21316 6.1561 7.14649 6.07104 7.09691C5.98599 7.04734 5.89158 7.01593 5.79377 7.00467C5.69597 6.99341 5.5969 7.00255 5.5028 7.03151C5.40871 7.06047 5.32164 7.10862 5.24709 7.17292C5.17254 7.23722 5.11212 7.31627 5.06966 7.4051C5.0272 7.49392 5.00361 7.59058 5.00038 7.68897C4.99716 7.78737 5.01436 7.88537 5.05091 7.97678C5.08745 8.06819 5.14256 8.15104 5.21273 8.22009L9.4679 13.1983C9.53477 13.2766 9.61782 13.3395 9.71133 13.3826C9.80483 13.4257 9.90657 13.448 10.0095 13.448C10.1125 13.448 10.2142 13.4257 10.3077 13.3826C10.4013 13.3395 10.4843 13.2766 10.5512 13.1983L14.8198 8.22009C14.9321 8.09393 14.9959 7.93198 14.9999 7.76312Z"
+                  fill="#777777" />
+              </svg>
+            </li>
+
+            <li>English
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M14.9999 7.76312C15.0026 7.61546 14.9594 7.4706 14.8762 7.34859C14.793 7.22657 14.6739 7.13344 14.5354 7.08207C14.397 7.0307 14.246 7.02363 14.1033 7.06185C13.9607 7.10007 13.8334 7.18169 13.7392 7.2954L10.0136 11.6473L6.28795 7.29271C6.22995 7.21316 6.1561 7.14649 6.07104 7.09691C5.98599 7.04734 5.89158 7.01593 5.79377 7.00467C5.69597 6.99341 5.5969 7.00255 5.5028 7.03151C5.40871 7.06047 5.32164 7.10862 5.24709 7.17292C5.17254 7.23722 5.11212 7.31627 5.06966 7.4051C5.0272 7.49392 5.00361 7.59058 5.00038 7.68897C4.99716 7.78737 5.01436 7.88537 5.05091 7.97678C5.08745 8.06819 5.14256 8.15104 5.21273 8.22009L9.4679 13.1983C9.53477 13.2766 9.61782 13.3395 9.71133 13.3826C9.80483 13.4257 9.90657 13.448 10.0095 13.448C10.1125 13.448 10.2142 13.4257 10.3077 13.3826C10.4013 13.3395 10.4843 13.2766 10.5512 13.1983L14.8198 8.22009C14.9321 8.09393 14.9959 7.93198 14.9999 7.76312Z"
+                  fill="#777777" />
+              </svg>
+            </li>
+          </ul>
+
+        </div>
+        <form class="d-flex justify-content-center">
+          <div class="box">
+            <input class="form-control" type="search" placeholder="What do you need?" aria-label="Search">
+
+            <button class="btn btn-outline-success" id="search-button" type="submit"> <svg
+                xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M10.4598 1C15.1245 1 18.9188 4.79428 18.9188 9.45896C18.9188 11.6597 18.0742 13.667 16.6921 15.1734L19.4117 17.8873C19.6662 18.1418 19.667 18.5535 19.4125 18.808C19.2857 18.9366 19.1181 19 18.9513 19C18.7854 19 18.6186 18.9366 18.4909 18.8098L15.7385 16.0651C14.2907 17.2246 12.4548 17.9188 10.4598 17.9188C5.79515 17.9188 2 14.1236 2 9.45896C2 4.79428 5.79515 1 10.4598 1ZM10.4598 2.30298C6.51353 2.30298 3.30298 5.51266 3.30298 9.45896C3.30298 13.4053 6.51353 16.6158 10.4598 16.6158C14.4053 16.6158 17.6158 13.4053 17.6158 9.45896C17.6158 5.51266 14.4053 2.30298 10.4598 2.30298Z"
+                  fill="white" />
+              </svg>Search</button>
+          </div>
+        </form>
+
+
+
+      </div>
+    </div>
+
+
+    <div class="browser">
+      <div class="container">
+        <div class="shadow-box">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="browser-category">
+
+                <button type="submit " class="btn btn-primary  w-100"> <a href="./seller_product_info.html">Browse
+                    Categories</a></button>
+
+                <div class="left-side">
+
+                  <ul class="categories">
+                    <li>
+                      <div class="d-flex justify-content-between align-items-center gx-5">
+                        <img class="img-fluid" src="./assets/images/browser/img1.jpg" alt="">
+                        <a href="./seller_product_info.html">
+                          <p>Furniture & Home Decor</p>
+                        </a>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle opacity="0.05" cx="10" cy="10" r="10" fill="#777777" />
+                        <path
+                          d="M8.53649 6.00009C8.43269 5.99816 8.33085 6.02855 8.24507 6.08705C8.15929 6.14554 8.09381 6.22925 8.05769 6.3266C8.02158 6.42394 8.01661 6.5301 8.04348 6.63039C8.07035 6.73068 8.12773 6.82014 8.20768 6.88639L11.2672 9.5056L8.20579 12.1248C8.14986 12.1656 8.10299 12.2175 8.06813 12.2773C8.03328 12.3371 8.0112 12.4035 8.00328 12.4722C7.99537 12.541 8.0018 12.6106 8.02215 12.6768C8.04251 12.7429 8.07636 12.8042 8.12157 12.8566C8.16677 12.909 8.22235 12.9514 8.28479 12.9813C8.34724 13.0112 8.41519 13.0277 8.48437 13.03C8.55354 13.0323 8.62244 13.0202 8.6867 12.9945C8.75097 12.9688 8.80921 12.9301 8.85775 12.8807L12.3576 9.88922C12.4126 9.84221 12.4568 9.78382 12.4871 9.71808C12.5174 9.65234 12.5331 9.58082 12.5331 9.50843C12.5331 9.43605 12.5174 9.36452 12.4871 9.29878C12.4568 9.23305 12.4126 9.17466 12.3576 9.12765L8.85775 6.1267C8.76907 6.04774 8.65521 6.00287 8.53649 6.00009Z"
+                          fill="#777777" />
+                      </svg>
+                    </li>
+                    <li>
+                      <div class="d-flex justify-content-between align-items-center gx-5">
+                        <img class="img-fluid" src="./assets/images/browser/img2.jpg" alt="">
+                        <a href="./seller_product_info.html">
+                          <p>Electronic <br class="d-none d-lg-block"> Components</p>
+                        </a>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle opacity="0.05" cx="10" cy="10" r="10" fill="#777777" />
+                        <path
+                          d="M8.53649 6.00009C8.43269 5.99816 8.33085 6.02855 8.24507 6.08705C8.15929 6.14554 8.09381 6.22925 8.05769 6.3266C8.02158 6.42394 8.01661 6.5301 8.04348 6.63039C8.07035 6.73068 8.12773 6.82014 8.20768 6.88639L11.2672 9.5056L8.20579 12.1248C8.14986 12.1656 8.10299 12.2175 8.06813 12.2773C8.03328 12.3371 8.0112 12.4035 8.00328 12.4722C7.99537 12.541 8.0018 12.6106 8.02215 12.6768C8.04251 12.7429 8.07636 12.8042 8.12157 12.8566C8.16677 12.909 8.22235 12.9514 8.28479 12.9813C8.34724 13.0112 8.41519 13.0277 8.48437 13.03C8.55354 13.0323 8.62244 13.0202 8.6867 12.9945C8.75097 12.9688 8.80921 12.9301 8.85775 12.8807L12.3576 9.88922C12.4126 9.84221 12.4568 9.78382 12.4871 9.71808C12.5174 9.65234 12.5331 9.58082 12.5331 9.50843C12.5331 9.43605 12.5174 9.36452 12.4871 9.29878C12.4568 9.23305 12.4126 9.17466 12.3576 9.12765L8.85775 6.1267C8.76907 6.04774 8.65521 6.00287 8.53649 6.00009Z"
+                          fill="#777777" />
+                      </svg>
+
+                    </li>
+                    <li>
+                      <div class="d-flex justify-content-between align-items-center gx-5">
+                        <img class="img-fluid" src="./assets/images/browser/img3.jpg" alt="">
+                        <a href="./seller_product_info.html">
+                          <p>Construction</p>
+                        </a>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle opacity="0.05" cx="10" cy="10" r="10" fill="#777777" />
+                        <path
+                          d="M8.53649 6.00009C8.43269 5.99816 8.33085 6.02855 8.24507 6.08705C8.15929 6.14554 8.09381 6.22925 8.05769 6.3266C8.02158 6.42394 8.01661 6.5301 8.04348 6.63039C8.07035 6.73068 8.12773 6.82014 8.20768 6.88639L11.2672 9.5056L8.20579 12.1248C8.14986 12.1656 8.10299 12.2175 8.06813 12.2773C8.03328 12.3371 8.0112 12.4035 8.00328 12.4722C7.99537 12.541 8.0018 12.6106 8.02215 12.6768C8.04251 12.7429 8.07636 12.8042 8.12157 12.8566C8.16677 12.909 8.22235 12.9514 8.28479 12.9813C8.34724 13.0112 8.41519 13.0277 8.48437 13.03C8.55354 13.0323 8.62244 13.0202 8.6867 12.9945C8.75097 12.9688 8.80921 12.9301 8.85775 12.8807L12.3576 9.88922C12.4126 9.84221 12.4568 9.78382 12.4871 9.71808C12.5174 9.65234 12.5331 9.58082 12.5331 9.50843C12.5331 9.43605 12.5174 9.36452 12.4871 9.29878C12.4568 9.23305 12.4126 9.17466 12.3576 9.12765L8.85775 6.1267C8.76907 6.04774 8.65521 6.00287 8.53649 6.00009Z"
+                          fill="#777777" />
+                      </svg>
+
+                    </li>
+
+                    <li>
+                      <div class="d-flex justify-content-between align-items-center gx-5">
+                        <img class="img-fluid" src="./assets/images/browser/img4.jpg" alt="">
+                        <a href="./seller_product_info.html">
+                          <p>Sports & Outdoors</p>
+                        </a>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle opacity="0.05" cx="10" cy="10" r="10" fill="#777777" />
+                        <path
+                          d="M8.53649 6.00009C8.43269 5.99816 8.33085 6.02855 8.24507 6.08705C8.15929 6.14554 8.09381 6.22925 8.05769 6.3266C8.02158 6.42394 8.01661 6.5301 8.04348 6.63039C8.07035 6.73068 8.12773 6.82014 8.20768 6.88639L11.2672 9.5056L8.20579 12.1248C8.14986 12.1656 8.10299 12.2175 8.06813 12.2773C8.03328 12.3371 8.0112 12.4035 8.00328 12.4722C7.99537 12.541 8.0018 12.6106 8.02215 12.6768C8.04251 12.7429 8.07636 12.8042 8.12157 12.8566C8.16677 12.909 8.22235 12.9514 8.28479 12.9813C8.34724 13.0112 8.41519 13.0277 8.48437 13.03C8.55354 13.0323 8.62244 13.0202 8.6867 12.9945C8.75097 12.9688 8.80921 12.9301 8.85775 12.8807L12.3576 9.88922C12.4126 9.84221 12.4568 9.78382 12.4871 9.71808C12.5174 9.65234 12.5331 9.58082 12.5331 9.50843C12.5331 9.43605 12.5174 9.36452 12.4871 9.29878C12.4568 9.23305 12.4126 9.17466 12.3576 9.12765L8.85775 6.1267C8.76907 6.04774 8.65521 6.00287 8.53649 6.00009Z"
+                          fill="#777777" />
+                      </svg>
+                    </li>
+                    <li>
+                      <div class="d-flex justify-content-between align-items-center gx-5">
+                        <img class="img-fluid" src="./assets/images/browser/img5.jpg" alt="">
+                        <a href="./seller_product_info.html">
+                          <p>Machinery & <br class="d-none d-lg-block"> Equipment</p>
+                        </a>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle opacity="0.05" cx="10" cy="10" r="10" fill="#777777" />
+                        <path
+                          d="M8.53649 6.00009C8.43269 5.99816 8.33085 6.02855 8.24507 6.08705C8.15929 6.14554 8.09381 6.22925 8.05769 6.3266C8.02158 6.42394 8.01661 6.5301 8.04348 6.63039C8.07035 6.73068 8.12773 6.82014 8.20768 6.88639L11.2672 9.5056L8.20579 12.1248C8.14986 12.1656 8.10299 12.2175 8.06813 12.2773C8.03328 12.3371 8.0112 12.4035 8.00328 12.4722C7.99537 12.541 8.0018 12.6106 8.02215 12.6768C8.04251 12.7429 8.07636 12.8042 8.12157 12.8566C8.16677 12.909 8.22235 12.9514 8.28479 12.9813C8.34724 13.0112 8.41519 13.0277 8.48437 13.03C8.55354 13.0323 8.62244 13.0202 8.6867 12.9945C8.75097 12.9688 8.80921 12.9301 8.85775 12.8807L12.3576 9.88922C12.4126 9.84221 12.4568 9.78382 12.4871 9.71808C12.5174 9.65234 12.5331 9.58082 12.5331 9.50843C12.5331 9.43605 12.5174 9.36452 12.4871 9.29878C12.4568 9.23305 12.4126 9.17466 12.3576 9.12765L8.85775 6.1267C8.76907 6.04774 8.65521 6.00287 8.53649 6.00009Z"
+                          fill="#777777" />
+                      </svg>
+                    </li>
+                    <li>
+                      <div class="d-flex justify-content-between align-items-center gx-5">
+                        <img class="img-fluid" src="./assets/images/browser/img6.jpg" alt="">
+                        <a href="./seller_product_info.html">
+                          <p>Food, Household & <br class="d-none d-lg-block">Pets</p>
+                        </a>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle opacity="0.05" cx="10" cy="10" r="10" fill="#777777" />
+                        <path
+                          d="M8.53649 6.00009C8.43269 5.99816 8.33085 6.02855 8.24507 6.08705C8.15929 6.14554 8.09381 6.22925 8.05769 6.3266C8.02158 6.42394 8.01661 6.5301 8.04348 6.63039C8.07035 6.73068 8.12773 6.82014 8.20768 6.88639L11.2672 9.5056L8.20579 12.1248C8.14986 12.1656 8.10299 12.2175 8.06813 12.2773C8.03328 12.3371 8.0112 12.4035 8.00328 12.4722C7.99537 12.541 8.0018 12.6106 8.02215 12.6768C8.04251 12.7429 8.07636 12.8042 8.12157 12.8566C8.16677 12.909 8.22235 12.9514 8.28479 12.9813C8.34724 13.0112 8.41519 13.0277 8.48437 13.03C8.55354 13.0323 8.62244 13.0202 8.6867 12.9945C8.75097 12.9688 8.80921 12.9301 8.85775 12.8807L12.3576 9.88922C12.4126 9.84221 12.4568 9.78382 12.4871 9.71808C12.5174 9.65234 12.5331 9.58082 12.5331 9.50843C12.5331 9.43605 12.5174 9.36452 12.4871 9.29878C12.4568 9.23305 12.4126 9.17466 12.3576 9.12765L8.85775 6.1267C8.76907 6.04774 8.65521 6.00287 8.53649 6.00009Z"
+                          fill="#777777" />
+                      </svg>
+                    </li>
+                  </ul>
+
+                </div>
+
+
+
+
+              </div>
+
+
+            </div>
+
+            <div class="col-lg-9">
+              <div class="right-img">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./assets/images/browser/right_img.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./assets/images/browser/right_img.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./assets/images/browser/right_img.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+
+                  <div class="svg_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="61" height="10" viewBox="0 0 61 10" fill="none">
+                      <circle cx="5" cy="5" r="5" fill="#CDE5D9" />
+                      <circle cx="56" cy="5" r="5" fill="#CDE5D9" />
+                      <rect x="17" width="27" height="10" rx="5" fill="#CDE5D9" />
+                    </svg>
+                  </div>
+
+
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+    <div class="img-group">
+
+
+      <div class="container">
+        <div class="shadow-box">
+          <div class="row ">
+            <div class="col-lg-4">
+              <div class="card mb-5">
+                <a href="./seller_product_info.html"><img class="img-fluid" src="./assets/images/browser/group_img1.jpg"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text text-center">Nuts</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card mb-5">
+                <a href="./seller_product_info.html"> <img class="img-fluid"
+                    src="./assets/images/browser/group_img2.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text text-center">Steel</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card mb-5">
+                <a href="./seller_product_info.html"><img class="img-fluid" src="./assets/images/browser/group_img3.jpg"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text text-center">Clothing</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card mb-5">
+                <a href="./seller_product_info.html"><img class="img-fluid" src="./assets/images/browser/group_img4.jpg"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text text-center">Furniture</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card mb-5">
+                <a href="./seller_product_info.html"><img class="img-fluid" src="./assets/images/browser/group_img5.jpg"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text text-center">Electronics</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card mb-5">
+                <a href="./seller_product_info.html"><img class="img-fluid" src="./assets/images/browser/group_img6.jpg"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text text-center">Food</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card mb-5">
+                <a href="./seller_product_info.html"><img class="img-fluid" src="./assets/images/browser/group_img7.jpg"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text text-center">Silver</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card mb-5">
+                <a href="./seller_product_info.html"><img class="img-fluid" src="./assets/images/browser/group_img8.jpg"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text text-center">Gold</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card mb-5">
+                <a href="./seller_product_info.html"><img class="img-fluid" src="./assets/images/browser/group_img9.jpg"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text text-center">Dimond</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </main>
+
+  </footer>
+
+
+
+  <div class="container">
+    <div class="footter_wrapper">
+      <a href="#"><img src="./assets/images/login/login-logo.png" alt=""></a>
+
+      <ul class="text_items">
+        <li><a href="./seller_product_info.html">
+            <p>Shopping Cart</p>
+          </a></li>
+        <li><a href="#">
+            <p>Messages</p>
+          </a></li>
+        <li><a href="./register_seller.html">
+            <p>Terms & Service</p>
+          </a></li>
+      </ul>
+
+      <ul class="svg_items">
+        <li class="bg-success"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="bg-success"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+        <li class="bg-success"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+        <li class="bg-success"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+
+
+
+      </ul>
+
+
+    </div>
+
+
+    <div class="footer-button">
+
+      <a href="#"><button type="submit " class="btn btn-primary"> <svg xmlns="http://www.w3.org/2000/svg" width="20"
+            height="20" viewBox="0 0 20 20" fill="none"></svg></a>
+
+      <g clip-path="url(#clip0_13_591)">
+        <path
+          d="M16.1202 18.9428C16.2954 18.9427 16.4637 19.0107 16.5896 19.1323C17.4125 19.9269 18.6127 20.1914 19.6797 19.8603C18.993 18.4298 18.8979 16.7909 19.43 15.2734C20.0904 13.3854 20.2559 11.493 19.5043 9.59506C18.844 7.92778 17.5698 6.54259 15.9572 5.75269C16.0567 6.28438 16.1066 6.82418 16.1064 7.36511C16.1064 9.67674 15.2175 11.8509 13.6036 13.4871C11.9894 15.1236 9.82563 16.0437 7.51093 16.0781C7.08254 16.0847 6.65424 16.0599 6.22949 16.0038C7.50162 18.2336 9.90083 19.6859 12.5373 19.725C13.6906 19.7428 14.798 19.5012 15.8292 19.0087C15.9201 18.9653 16.0195 18.9427 16.1202 18.9428Z"
+          fill="white" />
+        <path
+          d="M7.52958 0.00146951C3.42334 -0.0800651 0.00992326 3.24182 2.22655e-05 7.34716C-0.00240348 8.35018 0.193389 9.32266 0.582002 10.2377C0.587646 10.251 0.592894 10.2645 0.597646 10.2782C1.12977 11.7956 1.03468 13.4345 0.347943 14.8651C1.41502 15.1961 2.61512 14.9317 3.43799 14.1371C3.53704 14.0414 3.66295 13.9783 3.79885 13.9562C3.93475 13.9342 4.07416 13.9541 4.19839 14.0135C5.22953 14.506 6.33705 14.7484 7.49032 14.7298C11.5644 14.6693 14.7558 11.4344 14.7557 7.36528C14.7558 3.38493 11.5141 0.0815685 7.52958 0.00146951ZM3.44245 8.46528C2.8525 8.46528 2.37423 7.98781 2.37423 7.39885C2.37423 6.80988 2.8525 6.33241 3.44245 6.33241C4.0324 6.33241 4.51067 6.80988 4.51067 7.39885C4.51062 7.98781 4.0324 8.46528 3.44245 8.46528ZM7.37789 8.46528C6.78794 8.46528 6.30968 7.98781 6.30968 7.39885C6.30968 6.80988 6.78794 6.33241 7.37789 6.33241C7.96784 6.33241 8.44611 6.80988 8.44611 7.39885C8.44611 7.98781 7.96784 8.46528 7.37789 8.46528ZM11.3134 8.46528C10.7234 8.46528 10.2452 7.98781 10.2452 7.39885C10.2452 6.80988 10.7234 6.33241 11.3134 6.33241C11.9033 6.33241 12.3816 6.80988 12.3816 7.39885C12.3816 7.98781 11.9033 8.46528 11.3134 8.46528Z"
+          fill="white" />
+      </g>
+      <defs>
+        <clipPath id="clip0_13_591">
+          <rect width="20" height="20" fill="white" />
+        </clipPath>
+      </defs>
+      </svg> Messages(02)</button>
+    </div>
+    <br>
+    </button>
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/fontawesome.min.js"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

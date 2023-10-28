@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Saller Store Page</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <!-- <h1>Hello, world!</h1> -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"> <img src="./assets/images/login/login-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item "><a href="./index.html"><span>Start Page</span></a></li>
+            <li class="nav-item">
+
+              <a class="nav-link active" aria-current="page" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M18.6948 8.59469L14.8017 12.3897L15.721 17.7497C15.7407 17.8646 15.7279 17.9828 15.6839 18.0908C15.64 18.1988 15.5667 18.2924 15.4723 18.3609C15.378 18.4294 15.2663 18.4702 15.15 18.4786C15.0337 18.487 14.9174 18.4627 14.8142 18.4084L10.0004 15.8778L5.18729 18.4078C5.08407 18.4621 4.96773 18.4864 4.85142 18.478C4.73511 18.4696 4.62347 18.4288 4.52912 18.3603C4.43477 18.2917 4.36148 18.1982 4.31753 18.0902C4.27357 17.9822 4.26072 17.864 4.28041 17.7491L5.19979 12.3891L1.30604 8.59469C1.22246 8.51326 1.16335 8.41006 1.13539 8.29678C1.10743 8.18349 1.11175 8.06464 1.14785 7.95368C1.18395 7.84272 1.25039 7.74408 1.33965 7.66892C1.42891 7.59377 1.53742 7.5451 1.65291 7.52844L7.03354 6.74719L9.43979 1.87094C9.65041 1.44406 10.3504 1.44406 10.561 1.87094L12.9673 6.74719L18.3479 7.52844C18.4631 7.54554 18.5713 7.59445 18.6603 7.66965C18.7492 7.74486 18.8155 7.84339 18.8515 7.95416C18.8875 8.06494 18.892 8.18357 18.8643 8.29672C18.8366 8.40987 18.7779 8.51306 18.6948 8.59469Z"
+                    fill="#666666" />
+                </svg>
+                Saved</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <g clip-path="url(#clip0_13_438)">
+                    <path
+                      d="M10.02 0C15.7 0 20 4.65699 20 9.98498C20 16.1642 14.96 20 10 20C8.36 20 6.54 19.5593 5.08 18.698C4.57 18.3876 4.14 18.1572 3.59 18.3375L1.57 18.9384C1.06 19.0986 0.6 18.698 0.75 18.1572L1.42 15.9139C1.53 15.6034 1.51 15.2729 1.35 15.0125C0.49 13.4301 0 11.6975 0 10.015C0 4.74712 4.21 0 10.02 0ZM14.59 8.74311C13.88 8.74311 13.31 9.31397 13.31 10.025C13.31 10.7261 13.88 11.307 14.59 11.307C15.3 11.307 15.87 10.7261 15.87 10.025C15.87 9.31397 15.3 8.74311 14.59 8.74311ZM9.98 8.74311C9.28 8.7331 8.7 9.31397 8.7 10.015C8.7 10.7261 9.27 11.2969 9.98 11.307C10.69 11.307 11.26 10.7261 11.26 10.025C11.26 9.31397 10.69 8.74311 9.98 8.74311ZM5.37 8.74311C4.66 8.74311 4.09 9.31397 4.09 10.025C4.09 10.7261 4.67 11.307 5.37 11.307C6.08 11.2969 6.65 10.7261 6.65 10.025C6.65 9.31397 6.08 8.74311 5.37 8.74311Z"
+                      fill="#666666" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13_438">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                Messages</a>
+            </li>
+            <li class="nav-item">
+
+
+              <a class=" btn btn-primary" href="./login.html"> <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                  height="20" viewBox="0 0 20 20" fill="none">
+                  <g clip-path="url(#clip0_204_920)">
+                    <path
+                      d="M10 13.1739C14.3386 13.1739 18 13.8789 18 16.599C18 19.32 14.3146 20 10 20C5.66237 20 2 19.295 2 16.575C2 13.8539 5.68538 13.1739 10 13.1739ZM10 0C12.9391 0 15.294 2.35402 15.294 5.29105C15.294 8.22808 12.9391 10.5831 10 10.5831C7.0619 10.5831 4.70601 8.22808 4.70601 5.29105C4.70601 2.35402 7.0619 0 10 0Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_204_920">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>Account</a>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <div class="nav-search">
+      <div class="container ">
+        <div class="row ">
+          <div class="company  ">
+            <h2>Company Name AB</h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="browser">
+      <div class="container">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+
+            <div class="seller_left_side">
+
+              <ul class="head_text d-flex gap-3 text-align-center">
+                <li class="d-flex align-items-center gap-3">
+                  <h3>Company info</h3>
+                  <span>Edit text</span>
+                </li>
+              </ul>
+
+
+
+              <h4>SteelManufacturer AB: Your Trusted Steel Partner</h4> <br> <br>
+              <p>
+                At SteelManufacturer AB, we take pride in being a leading steel manufacturing company, offering
+                top-quality steel products to diverse industries.
+                With a strong commitment to excellence, sustainability, and customer satisfaction, we strive to be
+                your reliable and trusted steel partner. <br> <br>
+
+                Our wide range of steel products, including structural steel, pipes, sheets, and customized
+                components, caters to the unique needs of various sectors.
+                Our skilled team of engineers ensures precision and durability in every piece of steel we produce.
+                <br> <br>
+
+                We believe in responsible business practices, minimizing our environmental impact, and contributing
+                positively to the communities
+              </p>
+
+
+
+
+
+
+            </div>
+
+
+          </div>
+
+
+          <div class="col-12 col-lg-6">
+            <div class="seller_right_side text-center">
+
+              <a href="./index.html"><img class="img-fluid" src="./assets/images/seller_right_img.png" alt=""></a>
+
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="row  align-items-center">
+
+          <div class="col-12 col-lg-7">
+
+
+
+            <div class=" left_img_section">
+              <ul class="d-flex  align-items-center gap-4 flex-wrap mt-4">
+                <li><img src="./assets/images/cartificate.jpg" alt=""></li>
+                <li><img src="./assets/images/cartificate.jpg" alt=""></li>
+
+
+                <li class="input_box_wrapper">
+                  <div class="input_box">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                        fill="none">
+                        <g clip-path="url(#clip0_212_1385)">
+                          <path
+                            d="M37.9998 18H22.0001V1.99987C22.0001 0.896156 21.104 0 19.9999 0C18.8961 0 18 0.896156 18 1.99987V18H1.99987C0.896156 18 0 18.8961 0 19.9999C0 21.104 0.896156 22.0001 1.99987 22.0001H18V37.9998C18 39.1039 18.8961 40.0001 19.9999 40.0001C21.104 40.0001 22.0001 39.1039 22.0001 37.9998V22.0001H37.9998C39.1039 22.0001 40.0001 21.104 40.0001 19.9999C40.0001 18.8961 39.1039 18 37.9998 18Z"
+                            fill="#B2B4B3" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_212_1385">
+                            <rect width="40" height="40" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+
+
+          </div>
+
+          <div class="col col-lg-5">
+            <div class="right_img_section text-center ">
+
+
+              <img src="./assets/images/shopping.jpg" alt="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                <g clip-path="url(#clip0_211_856)">
+                  <rect width="70" height="70" rx="35" fill="white" fill-opacity="0.07" />
+                  <path
+                    d="M46.5455 33.6288L32.0102 23.0628C31.749 22.8724 31.4403 22.758 31.1182 22.7322C30.7961 22.7063 30.4731 22.7701 30.185 22.9165C29.8968 23.0628 29.6548 23.286 29.4857 23.5614C29.3165 23.8368 29.2269 24.1535 29.2266 24.4767V45.6018C29.2256 45.9255 29.3145 46.243 29.4835 46.5191C29.6524 46.7952 29.8948 47.0189 30.1834 47.1652C30.4721 47.3116 30.7958 47.375 31.1183 47.3481C31.4409 47.3213 31.7496 47.2054 32.0102 47.0134L46.5455 36.4567C46.7701 36.2956 46.953 36.0833 47.0793 35.8374C47.2055 35.5915 47.2713 35.3191 47.2713 35.0427C47.2713 34.7664 47.2055 34.4939 47.0793 34.2481C46.953 34.0022 46.7701 33.7899 46.5455 33.6288Z"
+                    fill="white" fill-opacity="0.62" />
+                  <path
+                    d="M35.0012 0.00390625C15.6674 0.00390625 0 15.6713 0 35.0051C0 54.3319 15.6674 69.9946 35.0012 69.9946C54.3303 69.9946 70 54.3296 70 35.0051C70.0023 15.6713 54.3303 0.00390625 35.0012 0.00390625ZM35.0012 64.1548C18.9005 64.1548 5.84673 51.108 5.84673 35.0051C5.84673 18.9091 18.9005 5.84597 35.0012 5.84597C51.0995 5.84597 64.1509 18.9068 64.1509 35.0051C64.1533 51.108 51.0995 64.1548 35.0012 64.1548Z"
+                    fill="white" fill-opacity="0.62" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_211_856">
+                    <rect width="70" height="70" rx="35" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+
+            </div>
+
+
+
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+
+    <div class="container">
+
+
+    </div>
+
+    <div class="img-group">
+
+
+      <div class="container">
+        <div class="shadow-box">
+          <!-- items -->
+          <div class="product_info">
+
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Store overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Upload Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Edit Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact info</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- items -->
+          <div class="shadow-box-wrap">
+            <div class="row">
+              <div class="col col-lg-12">
+
+
+              </div>
+
+            </div>
+            <div class="row ">
+
+              <div class="col-lg-4">
+
+                <div class="card  mb-5">
+                  <img src="./assets/images/browser/group_img1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                    <p class="card-text   ">Mixed nuts</p>
+                    <h3>US$ 1390.00 - 1420.00 / piece</h3>
+                    <h5>10000 Pieces (MOQ)</h5>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+
+
+              <div class="col-lg-4">
+                <div class="card mb-5">
+                  <img src="./assets/images/browser/group_img2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text   ">ANCROS Full Size Steel frames for Motorcycle</p>
+                    <h3>US$ 1390.00 - 1420.00 / piece</h3>
+                    <h5>10000 Pieces (MOQ)</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card mb-5">
+                  <img src="./assets/images/browser/group_img4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text  ">High Quality Combination Of sofa Living Room Furniture</p>
+                    <h3>US$ 1390.00 - 1420.00 / piece</h3>
+                    <h5>10000 Pieces (MOQ)</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card mb-5">
+                  <img src="./assets/images/browser/group_img1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text   ">Mixed nuts</p>
+                    <h3>US$ 1390.00 - 1420.00 / piece</h3>
+                    <h5>10000 Pieces (MOQ)</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card mb-5">
+                  <img src="./assets/images/browser/group_img2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text   ">ANCROS Full Size Steel frames for Motorcycle</p>
+                    <h3>US$ 1390.00 - 1420.00 / piece</h3>
+                    <h5>10000 Pieces (MOQ)</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card mb-5">
+                  <img src="./assets/images/browser/group_img4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text  ">High Quality Combination Of sofa Living Room Furniture</p>
+                    <h3>US$ 1390.00 - 1420.00 / piece</h3>
+                    <h5>10000 Pieces (MOQ)</h5>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card mb-5">
+                  <img src="./assets/images/browser/group_img1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text   ">Mixed nuts</p>
+                    <h3>US$ 1390.00 - 1420.00 / piece</h3>
+                    <h5>10000 Pieces (MOQ)</h5>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card mb-5">
+                  <img src="./assets/images/browser/group_img2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text   ">ANCROS Full Size Steel frames for Motorcycle</p>
+                    <h3>US$ 1390.00 - 1420.00 / piece</h3>
+                    <h5>10000 Pieces (MOQ)</h5>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card mb-5">
+                  <img src="./assets/images/browser/group_img4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text   ">High Quality Combination Of sofa Living Room Furniture</p>
+                    <h3>US$ 1390.00 - 1420.00 / piece</h3>
+                    <h5>10000 Pieces (MOQ)</h5>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="row ">
+            <div class="col-lg-12 ">
+
+              <div class="pagination ">
+
+                <nav aria-label="...">
+                  <ul class="pagination pagination-lg ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                      <g clip-path="url(#clip0_211_614)">
+                        <path
+                          d="M0.320796 13.2258L0.32178 13.2247L6.03684 7.53725C6.46499 7.11118 7.1575 7.11276 7.58368 7.54097C8.0098 7.96911 8.00816 8.66162 7.58001 9.08775L3.74292 12.9062L26.9063 12.9062C27.5103 12.9062 28 13.3959 28 14C28 14.6041 27.5103 15.0937 26.9063 15.0937L3.74298 15.0937L7.57996 18.9122C8.00811 19.3384 8.00975 20.0309 7.58363 20.459C7.15745 20.8873 6.46488 20.8888 6.03679 20.4627L0.321725 14.7752L0.32074 14.7742C-0.107627 14.3467 -0.10626 13.6519 0.320796 13.2258Z"
+                          fill="#808080" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_211_614">
+                          <rect width="28" height="28" fill="white"
+                            transform="matrix(-1 8.74228e-08 8.74228e-08 1 28 0)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+
+                    <li class="page-item"><a class="page-link" href="#">
+                        <p>1</p>
+                      </a></li>
+                    <li class="page-item active" aria-current="page">
+                      <span class="page-link">2</span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">...</a></li>
+
+                    <li class="page-item"><a class="page-link" href="#">
+                        <p>9</p>
+                      </a></li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                      <g clip-path="url(#clip0_211_611)">
+                        <path
+                          d="M27.6792 14.7742L27.6782 14.7753L21.9632 20.4628C21.535 20.8888 20.8425 20.8872 20.4163 20.459C19.9902 20.0309 19.9918 19.3384 20.42 18.9123L24.2571 15.0938H1.09375C0.489672 15.0938 0 14.6041 0 14C0 13.3959 0.489672 12.9063 1.09375 12.9063H24.257L20.42 9.08775C19.9919 8.66163 19.9903 7.96912 20.4164 7.54097C20.8426 7.11271 21.5351 7.11124 21.9632 7.53725L27.6783 13.2248L27.6793 13.2258C28.1076 13.6533 28.1063 14.3481 27.6792 14.7742Z"
+                          fill="#808080" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_211_611">
+                          <rect width="28" height="28" fill="white" transform="matrix(1 0 0 -1 0 28)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </ul>
+                </nav>
+
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+      </div>
+
+
+    </div>
+
+  </main>
+
+  </footer>
+
+
+
+  <div class="container">
+    <div class="footter_wrapper">
+      <a href="./index.html">
+        <img src="./assets/images/login/login-logo.png" alt="">
+      </a>
+
+      <ul class="text_items">
+        <li><a href="#">
+            <p>Shopping Cart</p>
+          </a></li>
+        <li><a href="#">
+            <p>Messages</p>
+          </a></li>
+        <li><a href="#">
+            <p>Terms & Service</p>
+          </a></li>
+      </ul>
+
+      <ul class="svg_items">
+        <li class="bg-success"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="bg-success"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+        <li class="bg-success"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+        <li class="bg-success"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+
+
+
+      </ul>
+
+    </div>
+
+
+    <div class="footer-button">
+      <button type="submit " class="btn btn-primary"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+          viewBox="0 0 20 20" fill="none">
+          <g clip-path="url(#clip0_13_591)">
+            <path
+              d="M16.1202 18.9428C16.2954 18.9427 16.4637 19.0107 16.5896 19.1323C17.4125 19.9269 18.6127 20.1914 19.6797 19.8603C18.993 18.4298 18.8979 16.7909 19.43 15.2734C20.0904 13.3854 20.2559 11.493 19.5043 9.59506C18.844 7.92778 17.5698 6.54259 15.9572 5.75269C16.0567 6.28438 16.1066 6.82418 16.1064 7.36511C16.1064 9.67674 15.2175 11.8509 13.6036 13.4871C11.9894 15.1236 9.82563 16.0437 7.51093 16.0781C7.08254 16.0847 6.65424 16.0599 6.22949 16.0038C7.50162 18.2336 9.90083 19.6859 12.5373 19.725C13.6906 19.7428 14.798 19.5012 15.8292 19.0087C15.9201 18.9653 16.0195 18.9427 16.1202 18.9428Z"
+              fill="white" />
+            <path
+              d="M7.52958 0.00146951C3.42334 -0.0800651 0.00992326 3.24182 2.22655e-05 7.34716C-0.00240348 8.35018 0.193389 9.32266 0.582002 10.2377C0.587646 10.251 0.592894 10.2645 0.597646 10.2782C1.12977 11.7956 1.03468 13.4345 0.347943 14.8651C1.41502 15.1961 2.61512 14.9317 3.43799 14.1371C3.53704 14.0414 3.66295 13.9783 3.79885 13.9562C3.93475 13.9342 4.07416 13.9541 4.19839 14.0135C5.22953 14.506 6.33705 14.7484 7.49032 14.7298C11.5644 14.6693 14.7558 11.4344 14.7557 7.36528C14.7558 3.38493 11.5141 0.0815685 7.52958 0.00146951ZM3.44245 8.46528C2.8525 8.46528 2.37423 7.98781 2.37423 7.39885C2.37423 6.80988 2.8525 6.33241 3.44245 6.33241C4.0324 6.33241 4.51067 6.80988 4.51067 7.39885C4.51062 7.98781 4.0324 8.46528 3.44245 8.46528ZM7.37789 8.46528C6.78794 8.46528 6.30968 7.98781 6.30968 7.39885C6.30968 6.80988 6.78794 6.33241 7.37789 6.33241C7.96784 6.33241 8.44611 6.80988 8.44611 7.39885C8.44611 7.98781 7.96784 8.46528 7.37789 8.46528ZM11.3134 8.46528C10.7234 8.46528 10.2452 7.98781 10.2452 7.39885C10.2452 6.80988 10.7234 6.33241 11.3134 6.33241C11.9033 6.33241 12.3816 6.80988 12.3816 7.39885C12.3816 7.98781 11.9033 8.46528 11.3134 8.46528Z"
+              fill="white" />
+          </g>
+          <defs>
+            <clipPath id="clip0_13_591">
+              <rect width="20" height="20" fill="white" />
+            </clipPath>
+          </defs>
+        </svg> Messages(02)</button>
+    </div>
+    <br>
+    </button>
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/fontawesome.min.js"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

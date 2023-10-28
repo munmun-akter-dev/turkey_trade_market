@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Saller Product Info Page</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <!-- <h1>Hello, world!</h1> -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"> <img src="./assets/images/login/login-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item "><a href="./index.html"><span>Start Page</span></a></li>
+            <li class="nav-item">
+
+              <a class="nav-link active" aria-current="page" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M18.6948 8.59469L14.8017 12.3897L15.721 17.7497C15.7407 17.8646 15.7279 17.9828 15.6839 18.0908C15.64 18.1988 15.5667 18.2924 15.4723 18.3609C15.378 18.4294 15.2663 18.4702 15.15 18.4786C15.0337 18.487 14.9174 18.4627 14.8142 18.4084L10.0004 15.8778L5.18729 18.4078C5.08407 18.4621 4.96773 18.4864 4.85142 18.478C4.73511 18.4696 4.62347 18.4288 4.52912 18.3603C4.43477 18.2917 4.36148 18.1982 4.31753 18.0902C4.27357 17.9822 4.26072 17.864 4.28041 17.7491L5.19979 12.3891L1.30604 8.59469C1.22246 8.51326 1.16335 8.41006 1.13539 8.29678C1.10743 8.18349 1.11175 8.06464 1.14785 7.95368C1.18395 7.84272 1.25039 7.74408 1.33965 7.66892C1.42891 7.59377 1.53742 7.5451 1.65291 7.52844L7.03354 6.74719L9.43979 1.87094C9.65041 1.44406 10.3504 1.44406 10.561 1.87094L12.9673 6.74719L18.3479 7.52844C18.4631 7.54554 18.5713 7.59445 18.6603 7.66965C18.7492 7.74486 18.8155 7.84339 18.8515 7.95416C18.8875 8.06494 18.892 8.18357 18.8643 8.29672C18.8366 8.40987 18.7779 8.51306 18.6948 8.59469Z"
+                    fill="#666666" />
+                </svg>
+                Saved</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <g clip-path="url(#clip0_13_438)">
+                    <path
+                      d="M10.02 0C15.7 0 20 4.65699 20 9.98498C20 16.1642 14.96 20 10 20C8.36 20 6.54 19.5593 5.08 18.698C4.57 18.3876 4.14 18.1572 3.59 18.3375L1.57 18.9384C1.06 19.0986 0.6 18.698 0.75 18.1572L1.42 15.9139C1.53 15.6034 1.51 15.2729 1.35 15.0125C0.49 13.4301 0 11.6975 0 10.015C0 4.74712 4.21 0 10.02 0ZM14.59 8.74311C13.88 8.74311 13.31 9.31397 13.31 10.025C13.31 10.7261 13.88 11.307 14.59 11.307C15.3 11.307 15.87 10.7261 15.87 10.025C15.87 9.31397 15.3 8.74311 14.59 8.74311ZM9.98 8.74311C9.28 8.7331 8.7 9.31397 8.7 10.015C8.7 10.7261 9.27 11.2969 9.98 11.307C10.69 11.307 11.26 10.7261 11.26 10.025C11.26 9.31397 10.69 8.74311 9.98 8.74311ZM5.37 8.74311C4.66 8.74311 4.09 9.31397 4.09 10.025C4.09 10.7261 4.67 11.307 5.37 11.307C6.08 11.2969 6.65 10.7261 6.65 10.025C6.65 9.31397 6.08 8.74311 5.37 8.74311Z"
+                      fill="#666666" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_13_438">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                Messages</a>
+            </li>
+            <li class="nav-item">
+
+
+              <a class=" btn btn-primary" href="./login.html"> <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                  height="20" viewBox="0 0 20 20" fill="none">
+                  <g clip-path="url(#clip0_204_920)">
+                    <path
+                      d="M10 13.1739C14.3386 13.1739 18 13.8789 18 16.599C18 19.32 14.3146 20 10 20C5.66237 20 2 19.295 2 16.575C2 13.8539 5.68538 13.1739 10 13.1739ZM10 0C12.9391 0 15.294 2.35402 15.294 5.29105C15.294 8.22808 12.9391 10.5831 10 10.5831C7.0619 10.5831 4.70601 8.22808 4.70601 5.29105C4.70601 2.35402 7.0619 0 10 0Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_204_920">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>Account</a>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <main>
+
+
+
+
+    <div class="browser ">
+      <div class="container">
+        <div class="shadow-box">
+          <div class="row ">
+            <div class="col-lg-6">
+
+              <div class="seller_product_info_left_side">
+
+                <img class="img-fluid" src="./assets/images/seller_product_info.jpg" alt="">
+
+
+
+
+
+              </div>
+
+
+            </div>
+
+
+            <div class="col-lg-6">
+              <div class="seller_product_info_right_side">
+
+                <h2>High Quality Combination Of sofa <br> Living Room Furniture with extra <br> soft textile.</h2>
+                <h3>€ 385-400/piece</h3>
+
+
+              </div>
+
+              <div class="info_group">
+                <ul>
+                  <li>
+                    <p>Seller</p><span>:</span>
+                    <p>Kentasbilservice AB</p>
+                  </li>
+
+                </ul>
+
+                <ul>
+                  <li>
+                    <p>MOQ</p> <span>:</span>
+                    <p>1000 pieces</p>
+                  </li>
+
+                </ul>
+
+                <ul>
+                  <li>
+                    <p>Model nr</p><span>:</span>
+                    <p>778469</p>
+                  </li>
+
+                </ul>
+
+                <ul>
+                  <li>
+                    <p>Lead time</p><span>:</span>
+                    <p>15-45 days</p>
+                  </li>
+
+                </ul>
+
+              </div>
+
+
+            </div>
+
+
+
+
+
+          </div>
+
+          <div class="row  align-items-center">
+
+            <div class="col col-lg-6 d-none d-lg-block">
+
+
+
+              <div class=" seller_product_info_left_img_group">
+
+                <ul class="d-flex  align-items-center gap-2 flex-wrap">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                      <g clip-path="url(#clip0_216_592)">
+                        <path
+                          d="M10 20C15.5142 20 20 15.5142 20 10C20 4.48582 15.5142 3.92163e-07 10 8.74228e-07C4.48582 1.35629e-06 -1.35629e-06 4.48582 -8.74228e-07 10C-3.92163e-07 15.5142 4.48582 20 10 20ZM6.91082 9.41082L11.0775 5.24418C11.1548 5.16669 11.2466 5.10523 11.3477 5.06332C11.4488 5.02142 11.5572 4.9999 11.6667 5C11.7761 4.9999 11.8845 5.02143 11.9856 5.06333C12.0867 5.10523 12.1786 5.16669 12.2559 5.24418C12.5817 5.57 12.5817 6.09668 12.2559 6.4225L8.67832 10L12.2558 13.5775C12.5816 13.9033 12.5816 14.43 12.2558 14.7558C11.93 15.0816 11.4033 15.0816 11.0775 14.7558L6.91082 10.5891C6.585 10.2633 6.585 9.73668 6.91082 9.41082Z"
+                          fill="black" fill-opacity="0.18" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_216_592">
+                          <rect width="20" height="20" fill="white" transform="translate(20 20) rotate(180)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+
+                    <button class="carousel-control-prev" type="button"
+                      data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+
+                  </li>
+                  <li><img src="./assets/images/seller_product_info1.jpg" alt=""></li>
+                  <li><img src="./assets/images/seller_product_info2.jpg" alt=""></li>
+                  <li><img src="./assets/images/seller_product_info3.jpg" alt=""></li>
+                  <li>
+
+                    <button class="carousel-control-next" type="button"
+                      data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                      <g clip-path="url(#clip0_216_595)">
+                        <path
+                          d="M10 0C4.48582 0 0 4.48582 0 10C0 15.5142 4.48582 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48582 15.5142 0 10 0ZM13.0892 10.5892L8.9225 14.7558C8.84521 14.8333 8.75338 14.8948 8.65227 14.9367C8.55116 14.9786 8.44277 15.0001 8.33332 15C8.22387 15.0001 8.11548 14.9786 8.01438 14.9367C7.91327 14.8948 7.82143 14.8333 7.74414 14.7558C7.41832 14.43 7.41832 13.9033 7.74414 13.5775L11.3217 10L7.74418 6.4225C7.41836 6.09668 7.41836 5.57 7.74418 5.24418C8.07 4.91836 8.59668 4.91836 8.9225 5.24418L13.0892 9.41086C13.415 9.73668 13.415 10.2633 13.0892 10.5892Z"
+                          fill="black" fill-opacity="0.18" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_216_595">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </li>
+
+
+                </ul>
+
+              </div>
+
+
+            </div>
+
+            <div class="col col-lg-6">
+
+              <div class="seller_product_info_right_box text-center ">
+
+                <ul class="nav nav-pills nav-justified ">
+                  <li class="nav-item">
+                    <a class="nav-link active  d-flex align-items-center justify-content-center" aria-current="page"
+                      href="./register_seller.html"> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="27"
+                        viewBox="0 0 28 27" fill="none">
+                        <path
+                          d="M23.1162 1.6875H4.55371C3.88238 1.6875 3.23855 1.95418 2.76385 2.42889C2.28915 2.90359 2.02246 3.54742 2.02246 4.21875V17.7188C2.02246 18.3901 2.28915 19.0339 2.76385 19.5086C3.23855 19.9833 3.88238 20.25 4.55371 20.25H6.08849L5.41349 24.3295C5.38497 24.5004 5.40974 24.6759 5.48444 24.8322C5.55913 24.9885 5.68013 25.1181 5.83099 25.2032C5.98185 25.2884 6.15527 25.325 6.32768 25.3082C6.5001 25.2914 6.66316 25.2219 6.79471 25.1092L12.4596 20.25H23.1162C23.7875 20.25 24.4314 19.9833 24.9061 19.5086C25.3808 19.0339 25.6475 18.3901 25.6475 17.7188V4.21875C25.6475 3.54742 25.3808 2.90359 24.9061 2.42889C24.4314 1.95418 23.7875 1.6875 23.1162 1.6875ZM23.96 17.7188C23.96 17.9425 23.8711 18.1571 23.7128 18.3154C23.5546 18.4736 23.34 18.5625 23.1162 18.5625H12.1475C11.946 18.5625 11.7511 18.6346 11.5982 18.7658L7.45537 22.3172L7.9169 19.5455C7.93712 19.4246 7.93077 19.3007 7.89827 19.1826C7.86578 19.0644 7.80794 18.9547 7.72876 18.8612C7.64958 18.7676 7.55097 18.6924 7.43979 18.6409C7.32861 18.5893 7.20752 18.5625 7.08496 18.5625H4.55371C4.32993 18.5625 4.11532 18.4736 3.95709 18.3154C3.79886 18.1571 3.70996 17.9425 3.70996 17.7188V4.21875C3.70996 3.99497 3.79886 3.78036 3.95709 3.62213C4.11532 3.46389 4.32993 3.375 4.55371 3.375H23.1162C23.34 3.375 23.5546 3.46389 23.7128 3.62213C23.8711 3.78036 23.96 3.99497 23.96 4.21875V17.7188Z"
+                          fill="white" />
+                      </svg>Contact Seller</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center justify-content-center" href="#"> <svg
+                        xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 29 28" fill="none">
+                        <g clip-path="url(#clip0_216_644)">
+                          <path
+                            d="M6.93211 26.8877C6.62531 26.8877 6.32069 26.792 6.0607 26.604C5.82424 26.4328 5.64331 26.196 5.54041 25.9228C5.43752 25.6496 5.4172 25.3522 5.48198 25.0676L7.28333 17.1328L1.17436 11.7755C0.954649 11.5838 0.796156 11.3317 0.718599 11.0506C0.641042 10.7695 0.647844 10.4719 0.73816 10.1946C0.827921 9.91751 0.997037 9.67285 1.22454 9.49096C1.45204 9.30907 1.72793 9.19795 2.01799 9.17138L10.1008 8.43751L13.2966 0.958968C13.5321 0.409509 14.0687 0.0546875 14.665 0.0546875C15.2613 0.0546875 15.7979 0.409509 16.0335 0.95771L19.2292 8.43751L27.3108 9.17127C27.9059 9.22486 28.4075 9.62759 28.5919 10.1946C28.7763 10.7616 28.6058 11.3834 28.1567 11.7754L22.0478 17.1317L23.8491 25.0663C23.9812 25.6497 23.7547 26.2531 23.2706 26.603C22.7876 26.9529 22.1435 26.9798 21.6349 26.6741L14.665 22.509L7.69519 26.6764C7.45953 26.8164 7.19697 26.8877 6.93211 26.8877ZM14.665 20.7147C14.9299 20.7147 15.1922 20.7858 15.4281 20.9258L22.006 24.86L20.3059 17.3708C20.2464 17.109 20.2588 16.836 20.3418 16.5807C20.4247 16.3255 20.5752 16.0974 20.7773 15.9206L26.5455 10.8619L18.9141 10.169C18.6455 10.1449 18.3885 10.0483 18.1707 9.88939C17.9529 9.7305 17.7823 9.51535 17.6774 9.26698L14.665 2.20959L11.649 9.26802C11.4367 9.77088 10.9641 10.1163 10.416 10.1666L2.78341 10.8596L8.55145 15.9183C8.96457 16.28 9.14526 16.8354 9.02287 17.3697L7.32412 24.8587L13.9019 20.9258C14.1376 20.7858 14.4002 20.7147 14.665 20.7147ZM10.0391 8.58211C10.0391 8.58211 10.0391 8.58336 10.0378 8.58446L10.0391 8.58211ZM19.2886 8.57866L19.2899 8.58101C19.2899 8.57975 19.2899 8.57975 19.2886 8.57866H19.2886Z"
+                            fill="#037D41" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_216_644">
+                            <rect width="28" height="28" fill="white" transform="translate(0.665039)" />
+                          </clipPath>
+                        </defs>
+                      </svg>Save product</a>
+                  </li>
+
+
+                </ul>
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="container">
+
+
+      </div>
+
+      <div class="img-group">
+
+
+        <div class="container">
+          <div class="shadow-box">
+
+            <div class="shadow-box-wrap">
+              <div class="row">
+                <div class="product_description">
+                  <div class="col col-lg-12">
+
+
+                    <h2>Product Description</h2>
+                    <hr>
+
+                    <h3>Product Overview:</h3>
+
+                    <p>your interior design to new heights. This sophisticated and comfortable sofa combines elegant
+                      design with high-quality materials,
+                      offering you and your <br> family a place to relax and create memories.</p>
+
+                    <h3>Features:</h3>
+
+                    <div class="feature_group">
+
+                      <p><span>High-Quality Construction:</span> Crafted with carefully selected, premium materials for
+                        long-lasting durability and comfort. </p> <br>
+
+
+
+                      <p><span>Extra Plush Seat Cushions:</span> Generously stuffed seat cushions and backrests provide
+                        a luxurious feel and maximum relaxation.</p> <br>
+
+
+                      <p><span>Sleek Design:</span> Modern and timeless design that seamlessly fits into various
+                        interior styles. </p> <br>
+                      <p><span>Room for All:</span> Comfortably accommodates multiple individuals, perfect for family
+                        gatherings or socializing with friends.</p> <br>
+                    </div>
+
+
+                    <img src="./assets/images/feature_img1.jpg" alt="">
+
+
+                    <table class="table table-justified">
+
+                      <tbody>
+                        <tr>
+                          <!-- <th scope="row"></th> -->
+                          <td>
+                            <h4>Packaging and Delivery:</h4>
+                          </td>
+
+
+                        </tr>
+                        <tr>
+
+
+                      <tbody>
+                        <tr>
+                          <!-- <th scope="row"></th> -->
+                          <td>
+                            <p><span>Individual packaging: </span>Carefully protected to minimize any potential
+                              transportation damage. </p>
+                          </td>
+
+
+                        </tr>
+                        <tr>
+                          <!-- <th scope="row"></th> -->
+                          <td>
+                            <p><span>Weight:</span> 55 kg</p>
+                          </td>
+
+
+                        </tr>
+                        <tr>
+                          <!-- <th scope="row"></th> -->
+                          <td colspan="2">
+                            <p><span>Delivery:</span> Standard delivery within 7-10 working days (depending on the
+                              destination)</p>
+                          </td>
+
+                        </tr>
+                      </tbody>
+
+                    </table> <br>
+
+                    <p>Explore the comfort, elegance, and versatility of our modern corner sofa. Create an elegant and
+                      comfortable space in your home. Order today <br> and receive this stylish addition to your
+                      interior.</p><br>
+                    <img src="./assets/images/feature_img2.jpg" alt="">
+
+
+
+
+
+                    <div class="packaging_delivery_section">
+
+                      <h3>Packaging and Delivery:</h3>
+
+                      <p><span>Frame:</span> Sturdy hardwood frame provides stability and durability.</p><br>
+
+
+
+                      <p><span>Suspension:</span> High-quality sinuous spring suspension system ensures even support and
+                        long-lasting comfort.</p><br>
+
+
+                      <p><span>Cushioning:</span> Multi-density foam cushions offer the perfect balance between support
+                        and plushness. </p>
+
+                    </div>
+
+
+                    <table class="table table-bordered gap-5">
+
+
+                      <tbody>
+                        <tr>
+
+                          <td>
+                            <p><span>Model:</span> CornerComfort Deluxe (Model Number: CCX-2023)</p>
+                          </td>
+                          <td></td>
+                          <td></td>
+
+
+
+                        </tr>
+                        <tr>
+
+                          <td>
+                            <p><span>Material:</span> High-quality</p>
+                          </td>
+                          <td>durable fabric</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+
+                          <td>
+                            <p><span>Dimensions (WxDxH):</span> 240cm x 180cm x 85cm</p>
+                          </td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+
+                        <tr>
+
+                          <td>
+                            <p><span>Seat Height:</span> 45cm</p>
+                          </td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+
+                        <tr>
+
+                          <td>
+                            <p><span>Color Options:</span> Elegant gray</p>
+                          </td>
+                          <td>timeless beige</td>
+                          <td>stylish black</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+
+
+
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+
+
+          </div>
+
+
+        </div>
+
+  </main>
+
+  </footer>
+
+
+
+  <div class="container">
+    <div class="footter_wrapper">
+      <a href="./index.html"><img src="./assets/images/login/login-logo.png" alt=""></a>
+
+      <ul class="text_items p-0">
+        <li><a href="#">
+            <p>Shopping Cart</p>
+          </a></li>
+        <li><a href="#">
+            <p>Messages</p>
+          </a></li>
+        <li><a href="#">
+            <p>Terms & Service</p>
+          </a></li>
+      </ul>
+
+
+      <ul class="svg_items">
+        <li class="bg-success"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="bg-success"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+        <li class="bg-success"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+        <li class="bg-success"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+
+
+
+      </ul>
+
+
+    </div>
+
+
+    <div class="footer-button">
+      <button type="submit " class="btn btn-primary"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+          viewBox="0 0 20 20" fill="none">
+          <g clip-path="url(#clip0_13_591)">
+            <path
+              d="M16.1202 18.9428C16.2954 18.9427 16.4637 19.0107 16.5896 19.1323C17.4125 19.9269 18.6127 20.1914 19.6797 19.8603C18.993 18.4298 18.8979 16.7909 19.43 15.2734C20.0904 13.3854 20.2559 11.493 19.5043 9.59506C18.844 7.92778 17.5698 6.54259 15.9572 5.75269C16.0567 6.28438 16.1066 6.82418 16.1064 7.36511C16.1064 9.67674 15.2175 11.8509 13.6036 13.4871C11.9894 15.1236 9.82563 16.0437 7.51093 16.0781C7.08254 16.0847 6.65424 16.0599 6.22949 16.0038C7.50162 18.2336 9.90083 19.6859 12.5373 19.725C13.6906 19.7428 14.798 19.5012 15.8292 19.0087C15.9201 18.9653 16.0195 18.9427 16.1202 18.9428Z"
+              fill="white" />
+            <path
+              d="M7.52958 0.00146951C3.42334 -0.0800651 0.00992326 3.24182 2.22655e-05 7.34716C-0.00240348 8.35018 0.193389 9.32266 0.582002 10.2377C0.587646 10.251 0.592894 10.2645 0.597646 10.2782C1.12977 11.7956 1.03468 13.4345 0.347943 14.8651C1.41502 15.1961 2.61512 14.9317 3.43799 14.1371C3.53704 14.0414 3.66295 13.9783 3.79885 13.9562C3.93475 13.9342 4.07416 13.9541 4.19839 14.0135C5.22953 14.506 6.33705 14.7484 7.49032 14.7298C11.5644 14.6693 14.7558 11.4344 14.7557 7.36528C14.7558 3.38493 11.5141 0.0815685 7.52958 0.00146951ZM3.44245 8.46528C2.8525 8.46528 2.37423 7.98781 2.37423 7.39885C2.37423 6.80988 2.8525 6.33241 3.44245 6.33241C4.0324 6.33241 4.51067 6.80988 4.51067 7.39885C4.51062 7.98781 4.0324 8.46528 3.44245 8.46528ZM7.37789 8.46528C6.78794 8.46528 6.30968 7.98781 6.30968 7.39885C6.30968 6.80988 6.78794 6.33241 7.37789 6.33241C7.96784 6.33241 8.44611 6.80988 8.44611 7.39885C8.44611 7.98781 7.96784 8.46528 7.37789 8.46528ZM11.3134 8.46528C10.7234 8.46528 10.2452 7.98781 10.2452 7.39885C10.2452 6.80988 10.7234 6.33241 11.3134 6.33241C11.9033 6.33241 12.3816 6.80988 12.3816 7.39885C12.3816 7.98781 11.9033 8.46528 11.3134 8.46528Z"
+              fill="white" />
+          </g>
+          <defs>
+            <clipPath id="clip0_13_591">
+              <rect width="20" height="20" fill="white" />
+            </clipPath>
+          </defs>
+        </svg> Messages(02)</button>
+    </div>
+    <br>
+    </button>
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/fontawesome.min.js"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
